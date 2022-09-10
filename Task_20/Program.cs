@@ -16,4 +16,4 @@ int Xb = int.Parse(parts2[0]);
 int Yb = int.Parse(parts2[1]);
 
 double distanseAB = Math.Sqrt(Math.Pow((Xb - Xa), 2) + Math.Pow((Yb - Ya), 2));
-Console.WriteLine(distanseAB - distanseAB % 0.01);
+Console.WriteLine(distanseAB - distanseAB % 0.01); 

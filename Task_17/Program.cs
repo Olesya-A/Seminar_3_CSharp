@@ -5,7 +5,10 @@ Console.WriteLine("Введите X Y:");
 string xy = Console.ReadLine()!; // "5 7" 
 string[] parts = xy.Split(' ');
 int x = int.Parse(parts[0]);
-int y = int.Parse(parts[1]); // if else if else if else if 
+int y = int.Parse(parts[1]); 
+
+// if else if else if else if 
+
 if (x > 0 && y > 0)
 {
     Console.WriteLine("1-я четверть");

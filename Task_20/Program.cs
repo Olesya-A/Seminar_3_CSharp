@@ -15,5 +15,5 @@ string[] parts2 = XYb.Split(' ');
 int Xb = int.Parse(parts2[0]);
 int Yb = int.Parse(parts2[1]);
 
-double distanseAB = Math.Sqrt((Xb - Xa) * (Xb - Xa) + (Yb - Ya) * (Yb - Ya));
+double distanseAB = Math.Sqrt(Math.Pow((Xb - Xa), 2) + Math.Pow((Yb - Ya), 2));
 Console.WriteLine(distanseAB - distanseAB % 0.01);
